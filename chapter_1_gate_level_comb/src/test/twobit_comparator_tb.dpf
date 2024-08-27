@@ -1,0 +1,33 @@
+---
+# Note: The contents of this file are automatically generated.
+# Any changes made by hand may be overwritten.
+version: '0.2'
+work_dir: .
+design_root_dir: >-
+  Q:\Digital_IC_Design\FPGA_PROTOTYPING_SYSTEMVERILOG\chapter_1_gate_level_comb\src\test
+simulations:
+  - name: twobit_comparator
+    options: '-top work.twobit_comparator_tb -L uut +acc+b -waves twobit_comparator.mxd'
+  - name: twobit_greater_than
+    options: >-
+      -top work.twobit_greater_than_tb -L uut +acc+b -waves
+      twobit_greater_than_waves.mxd
+  - name: fourbit_greater_than
+    options: >-
+      -top work.fourbit_greater_than_tb -L uut +acc+b -waves
+      fourbit_greater_than_waves.mxd
+  - name: decoder_2to4
+    options: '-top work.decoder_2to4_tb -L uut +acc+b -waves decoder_2to4_waves.mxd'
+  - name: decoder_3to8
+    options: '-top work.decoder_3to8_tb -L uut +acc+b -waves decoder_3to8_waves.mxd'
+  - name: decoder_4to16
+    options: '-top work.decoder_4to16_tb -L uut +acc+b -waves decoder_4to16_waves.mxd'
+source_files:
+  - language: verilog
+    path: test_list_uut.txt
+    file_list: relative-to-file
+  - language: verilog
+    path: test_list_tb.txt
+    file_list: relative-to-file
+library_search_paths:
+  - $STD_LIBS\ieee93

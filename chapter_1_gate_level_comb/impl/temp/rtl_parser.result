@@ -1,0 +1,178 @@
+[
+ {
+  "InstFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/decoder_2to4_top.sv",
+  "InstLine" : 1,
+  "InstName" : "decoder_2to4_top",
+  "ModuleFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/decoder_2to4_top.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "decoder_2to4_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/decoder_2to4_top.sv",
+    "InstLine" : 7,
+    "InstName" : "decoder_2to4_unit",
+    "ModuleFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/decoder_2to4.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "decoder_2to4"
+   }
+  ]
+ },
+ {
+  "InstFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/decoder_3to8_top.sv",
+  "InstLine" : 1,
+  "InstName" : "decoder_3to8_top",
+  "ModuleFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/decoder_3to8_top.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "decoder_3to8_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/decoder_3to8_top.sv",
+    "InstLine" : 6,
+    "InstName" : "decoder_3to8_unit",
+    "ModuleFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/decoder_3to8.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "decoder_3to8",
+    "SubInsts" : [
+     {
+      "InstFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/decoder_3to8.sv",
+      "InstLine" : 12,
+      "InstName" : "decoder_2to4_unit_1",
+      "ModuleFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/decoder_2to4.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "decoder_2to4"
+     },
+     {
+      "InstFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/decoder_3to8.sv",
+      "InstLine" : 17,
+      "InstName" : "decoder_2to4_unit_0",
+      "ModuleFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/decoder_2to4.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "decoder_2to4"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "InstFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/fourbit_greater_than_top.sv",
+  "InstLine" : 1,
+  "InstName" : "fourbit_greater_than_top",
+  "ModuleFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/fourbit_greater_than_top.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "fourbit_greater_than_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/fourbit_greater_than_top.sv",
+    "InstLine" : 8,
+    "InstName" : "fourbit_greater_than_unit",
+    "ModuleFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/fourbit_greater_than.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "fourbit_greater_than",
+    "SubInsts" : [
+     {
+      "InstFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/fourbit_greater_than.sv",
+      "InstLine" : 8,
+      "InstName" : "most_two_bit",
+      "ModuleFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/twobit_greater_than.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "twobit_greater_than"
+     },
+     {
+      "InstFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/fourbit_greater_than.sv",
+      "InstLine" : 10,
+      "InstName" : "least_two_bit",
+      "ModuleFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/twobit_greater_than.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "twobit_greater_than"
+     },
+     {
+      "InstFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/fourbit_greater_than.sv",
+      "InstLine" : 12,
+      "InstName" : "least_two_bit_eq",
+      "ModuleFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/twobit_comparator.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "twobit_comparator"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "InstFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/onebit_comparator.sv",
+  "InstLine" : 1,
+  "InstName" : "onebit_comparator",
+  "ModuleFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/onebit_comparator.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "onebit_comparator"
+ },
+ {
+  "InstFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/twobit_greater_than_top.sv",
+  "InstLine" : 1,
+  "InstName" : "twobit_greater_than_top",
+  "ModuleFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/twobit_greater_than_top.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "twobit_greater_than_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/twobit_greater_than_top.sv",
+    "InstLine" : 7,
+    "InstName" : "twobit_greater_than_unit_1",
+    "ModuleFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/twobit_greater_than.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "twobit_greater_than"
+   }
+  ]
+ },
+ {
+  "InstFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/decoder_4to16_top.sv",
+  "InstLine" : 1,
+  "InstName" : "decoder_4to16_top",
+  "ModuleFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/decoder_4to16_top.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "decoder_4to16_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/decoder_4to16_top.sv",
+    "InstLine" : 5,
+    "InstName" : "decoder_4to16_unit",
+    "ModuleFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/decoder_4to16.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "decoder_4to16",
+    "SubInsts" : [
+     {
+      "InstFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/decoder_4to16.sv",
+      "InstLine" : 13,
+      "InstName" : "decoder_2to4_unit_3",
+      "ModuleFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/decoder_2to4.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "decoder_2to4"
+     },
+     {
+      "InstFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/decoder_4to16.sv",
+      "InstLine" : 18,
+      "InstName" : "decoder_2to4_unit_2",
+      "ModuleFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/decoder_2to4.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "decoder_2to4"
+     },
+     {
+      "InstFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/decoder_4to16.sv",
+      "InstLine" : 23,
+      "InstName" : "decoder_2to4_unit_1",
+      "ModuleFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/decoder_2to4.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "decoder_2to4"
+     },
+     {
+      "InstFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/decoder_4to16.sv",
+      "InstLine" : 28,
+      "InstName" : "decoder_2to4_unit_0",
+      "ModuleFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/decoder_2to4.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "decoder_2to4"
+     }
+    ]
+   }
+  ]
+ }
+]

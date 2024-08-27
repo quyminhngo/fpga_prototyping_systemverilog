@@ -1,0 +1,37 @@
+=N:[UsageMeter (2024-08-14 18:03:17 SE Asia Standard Time)] usage server initial connection
+=N:[License] 
+Licensed for Metrics Design Automation.
+=N:[License] New lease granted.
+Analyzing...
+Elaborating...
+  Top-level modules:
+    $unit
+    decoder_4to16_tb
+  Found 6 unique specialization(s) of 6 design element(s).
+=W:[MissingTimescale]:
+    It is illegal for some design elements to have time specifications    
+    while others don't.  A complete time specification includes           
+    both a time unit and time precision.                                  
+
+        Have complete time spec    Have no/incomplete time spec    
+
+        decoder_4to16_tb           decoder_2to4                    
+                                   decoder_4to16                   
+
+Optimizing...
+Building models...
+PLI/VPI access: +b 
+Simulation time precision is 10ps.
+  [4/5] module decoder_4to16_tb: 8 functions, 25 basic blocks
+Linking image.so...
+Using default typical min/typ/max.
+=S:Begin run-time elaboration and static initialization...
+=N:[dumpMXD] preparing MXD dump to 'decoder_4to16_waves.mxd'.
+=N:[dump] Dump started at time 0
+=N:Starting event scheduler...
+=N:[dumpMXD] closing MXD dump
+=T:Simulation terminated by $stop at time 640000 (Q:\Digital_IC_Design\FPGA_PROTOTYPING_SYSTEMVERILOG\chapter_1_gate_level_comb\src\test\decoder_4to16_tb.sv:23);
+Run directory: Q:\Digital_IC_Design\FPGA_PROTOTYPING_SYSTEMVERILOG\chapter_1_gate_level_comb\src\test
+  System timescale is 10ps / 10ps
+  Metrics DSim version: 20240422.9.0 (b:R #c:0 h:d63c52d5c2 os:msys2_)
+  Random seed: (defaulted to 1)

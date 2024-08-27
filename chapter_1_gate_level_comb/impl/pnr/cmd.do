@@ -1,0 +1,11 @@
+-d Q:\Digital_IC_Design\FPGA_Prototyping_SystemVerilog\chapter_1_gate_level_comb\impl\gwsynthesis\chapter_1_gate_levek_comb.vg
+-p GW1NR-9C-QFN88P-6
+-pn GW1NR-LV9QN88PC6/I5
+-cfg Q:\Digital_IC_Design\FPGA_Prototyping_SystemVerilog\chapter_1_gate_level_comb\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23

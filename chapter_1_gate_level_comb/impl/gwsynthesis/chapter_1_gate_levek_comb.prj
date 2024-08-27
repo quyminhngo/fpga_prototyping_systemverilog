@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1NR-9C" package="QFN88P" speed="6" partNumber="GW1NR-LV9QN88PC6/I5"/>
+    <FileList>
+        <File path="Q:\Digital_IC_Design\FPGA_Prototyping_SystemVerilog\chapter_1_gate_level_comb\src\decoder_2to4.sv" type="verilog"/>
+        <File path="Q:\Digital_IC_Design\FPGA_Prototyping_SystemVerilog\chapter_1_gate_level_comb\src\decoder_2to4_top.sv" type="verilog"/>
+        <File path="Q:\Digital_IC_Design\FPGA_Prototyping_SystemVerilog\chapter_1_gate_level_comb\src\decoder_3to8.sv" type="verilog"/>
+        <File path="Q:\Digital_IC_Design\FPGA_Prototyping_SystemVerilog\chapter_1_gate_level_comb\src\decoder_3to8_top.sv" type="verilog"/>
+        <File path="Q:\Digital_IC_Design\FPGA_Prototyping_SystemVerilog\chapter_1_gate_level_comb\src\decoder_4to16.sv" type="verilog"/>
+        <File path="Q:\Digital_IC_Design\FPGA_Prototyping_SystemVerilog\chapter_1_gate_level_comb\src\fourbit_greater_than.sv" type="verilog"/>
+        <File path="Q:\Digital_IC_Design\FPGA_Prototyping_SystemVerilog\chapter_1_gate_level_comb\src\fourbit_greater_than_top.sv" type="verilog"/>
+        <File path="Q:\Digital_IC_Design\FPGA_Prototyping_SystemVerilog\chapter_1_gate_level_comb\src\onebit_comparator.sv" type="verilog"/>
+        <File path="Q:\Digital_IC_Design\FPGA_Prototyping_SystemVerilog\chapter_1_gate_level_comb\src\twobit_comparator.sv" type="verilog"/>
+        <File path="Q:\Digital_IC_Design\FPGA_Prototyping_SystemVerilog\chapter_1_gate_level_comb\src\twobit_greater_than.sv" type="verilog"/>
+        <File path="Q:\Digital_IC_Design\FPGA_Prototyping_SystemVerilog\chapter_1_gate_level_comb\src\twobit_greater_than_top.sv" type="verilog"/>
+        <File path="Q:\Digital_IC_Design\FPGA_Prototyping_SystemVerilog\chapter_1_gate_level_comb\src\decoder_4to16_top.sv" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="Q:\Digital_IC_Design\FPGA_Prototyping_SystemVerilog\chapter_1_gate_level_comb\impl\gwsynthesis\chapter_1_gate_levek_comb.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

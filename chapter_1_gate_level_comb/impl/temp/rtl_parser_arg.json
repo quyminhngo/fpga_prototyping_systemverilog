@@ -1,0 +1,61 @@
+{
+ "Device" : "GW1NR-9C",
+ "Files" : [
+  {
+   "Path" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/decoder_2to4.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/decoder_2to4_top.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/decoder_3to8.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/decoder_3to8_top.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/decoder_4to16.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/fourbit_greater_than.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/fourbit_greater_than_top.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/onebit_comparator.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/twobit_comparator.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/twobit_greater_than.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/twobit_greater_than_top.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/src/decoder_4to16_top.sv",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "Q:/Digital_IC_Design/FPGA_Prototyping_SystemVerilog/chapter_1_gate_level_comb/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

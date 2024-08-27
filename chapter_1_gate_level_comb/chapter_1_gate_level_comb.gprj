@@ -1,0 +1,21 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NR-9C" pn="GW1NR-LV9QN88PC6/I5">gw1nr9c-004</Device>
+    <FileList>
+        <File path="src/decoder_2to4.sv" type="file.verilog" enable="1"/>
+        <File path="src/decoder_2to4_top.sv" type="file.verilog" enable="1"/>
+        <File path="src/decoder_3to8.sv" type="file.verilog" enable="1"/>
+        <File path="src/decoder_3to8_top.sv" type="file.verilog" enable="1"/>
+        <File path="src/decoder_4to16.sv" type="file.verilog" enable="1"/>
+        <File path="src/decoder_4to16_top.sv" type="file.verilog" enable="1"/>
+        <File path="src/fourbit_greater_than.sv" type="file.verilog" enable="1"/>
+        <File path="src/fourbit_greater_than_top.sv" type="file.verilog" enable="1"/>
+        <File path="src/onebit_comparator.sv" type="file.verilog" enable="1"/>
+        <File path="src/twobit_comparator.sv" type="file.verilog" enable="1"/>
+        <File path="src/twobit_greater_than.sv" type="file.verilog" enable="1"/>
+        <File path="src/twobit_greater_than_top.sv" type="file.verilog" enable="1"/>
+    </FileList>
+</Project>

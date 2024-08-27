@@ -1,0 +1,6 @@
+Q:\Digital_IC_Design\FPGA_PROTOTYPING_SYSTEMVERILOG\chapter_1_gate_level_comb\src\test\twobit_comparator_tb.sv
+Q:\Digital_IC_Design\FPGA_PROTOTYPING_SYSTEMVERILOG\chapter_1_gate_level_comb\src\test\twobit_greater_than_tb.sv
+Q:\Digital_IC_Design\FPGA_PROTOTYPING_SYSTEMVERILOG\chapter_1_gate_level_comb\src\test\fourbit_greater_than_tb.sv
+Q:\Digital_IC_Design\FPGA_PROTOTYPING_SYSTEMVERILOG\chapter_1_gate_level_comb\src\test\decoder_2to4_tb.sv
+Q:\Digital_IC_Design\FPGA_PROTOTYPING_SYSTEMVERILOG\chapter_1_gate_level_comb\src\test\decoder_3to8_tb.sv
+Q:\Digital_IC_Design\FPGA_PROTOTYPING_SYSTEMVERILOG\chapter_1_gate_level_comb\src\test\decoder_4to16_tb.sv

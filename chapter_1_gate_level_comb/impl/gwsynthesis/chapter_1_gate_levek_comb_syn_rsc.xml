@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="decoder_4to16_top">
+ <SubModule name="decoder_4to16_unit">
+  <SubModule name="decoder_2to4_unit_3" Lut="9"/>
+  <SubModule name="decoder_2to4_unit_2" Lut="4"/>
+  <SubModule name="decoder_2to4_unit_1" Lut="4"/>
+  <SubModule name="decoder_2to4_unit_0" Lut="4"/>
+ </SubModule>
+</Module>
